@@ -9,10 +9,15 @@
 /* Begin PBXBuildFile section */
 		743C121A207241820064A354 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 743C1219207241820064A354 /* AppDelegate.swift */; };
 		743C121C207241820064A354 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 743C121B207241820064A354 /* ViewController.swift */; };
-		743C121F207241820064A354 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 743C121D207241820064A354 /* Main.storyboard */; };
-		743C1221207241870064A354 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 743C1220207241870064A354 /* Assets.xcassets */; };
-		743C1224207241870064A354 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 743C1222207241870064A354 /* LaunchScreen.storyboard */; };
 		743C122F207241870064A354 /* Yoga_Workshop2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 743C122E207241870064A354 /* Yoga_Workshop2Tests.swift */; };
+		743C123A2072421A0064A354 /* MoodViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 743C12392072421A0064A354 /* MoodViewController.swift */; };
+		743C123C207242580064A354 /* Moods.swift in Sources */ = {isa = PBXBuildFile; fileRef = 743C123B207242580064A354 /* Moods.swift */; };
+		743C123E2072425F0064A354 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 743C123D2072425F0064A354 /* Info.plist */; };
+		743C1240207242770064A354 /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 743C123F207242770064A354 /* CustomTableViewCell.swift */; };
+		743C12422072432A0064A354 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 743C12412072432A0064A354 /* Assets.xcassets */; };
+		743C124420724B010064A354 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 743C124320724B010064A354 /* WelcomeViewController.swift */; };
+		743C1249207257F10064A354 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 743C1247207257F10064A354 /* LaunchScreen.storyboard */; };
+		743C124C207257FE0064A354 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 743C124A207257FE0064A354 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,13 +34,17 @@
 		743C1216207241820064A354 /* Yoga Workshop2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Yoga Workshop2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		743C1219207241820064A354 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		743C121B207241820064A354 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		743C121E207241820064A354 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		743C1220207241870064A354 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		743C1223207241870064A354 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		743C1225207241870064A354 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		743C122A207241870064A354 /* Yoga Workshop2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Yoga Workshop2Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		743C122E207241870064A354 /* Yoga_Workshop2Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Yoga_Workshop2Tests.swift; sourceTree = "<group>"; };
 		743C1230207241870064A354 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		743C12392072421A0064A354 /* MoodViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MoodViewController.swift; path = "../../../../Desktop/Yoga Workshop/Yoga Workshop/MoodViewController.swift"; sourceTree = "<group>"; };
+		743C123B207242580064A354 /* Moods.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Moods.swift; path = "../../../../Desktop/Yoga Workshop/Yoga Workshop/Moods.swift"; sourceTree = "<group>"; };
+		743C123D2072425F0064A354 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = "../../../../Desktop/Yoga Workshop/Yoga Workshop/Info.plist"; sourceTree = "<group>"; };
+		743C123F207242770064A354 /* CustomTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CustomTableViewCell.swift; path = "../../../../Desktop/Yoga Workshop/Yoga Workshop/CustomTableViewCell.swift"; sourceTree = "<group>"; };
+		743C12412072432A0064A354 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../../../../.Trash/Assets.xcassets; sourceTree = "<group>"; };
+		743C124320724B010064A354 /* WelcomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = WelcomeViewController.swift; path = "../../../../Desktop/Yoga Workshop/Yoga Workshop/WelcomeViewController.swift"; sourceTree = "<group>"; };
+		743C1248207257F10064A354 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "../../Yoga Workshop/Yoga Workshop/Base.lproj/LaunchScreen.storyboard"; sourceTree = "<group>"; };
+		743C124B207257FE0064A354 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "../../Yoga Workshop/Yoga Workshop/Base.lproj/Main.storyboard"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,10 +88,14 @@
 			children = (
 				743C1219207241820064A354 /* AppDelegate.swift */,
 				743C121B207241820064A354 /* ViewController.swift */,
-				743C121D207241820064A354 /* Main.storyboard */,
-				743C1220207241870064A354 /* Assets.xcassets */,
-				743C1222207241870064A354 /* LaunchScreen.storyboard */,
-				743C1225207241870064A354 /* Info.plist */,
+				743C124320724B010064A354 /* WelcomeViewController.swift */,
+				743C123F207242770064A354 /* CustomTableViewCell.swift */,
+				743C123B207242580064A354 /* Moods.swift */,
+				743C12392072421A0064A354 /* MoodViewController.swift */,
+				743C124A207257FE0064A354 /* Main.storyboard */,
+				743C12412072432A0064A354 /* Assets.xcassets */,
+				743C1247207257F10064A354 /* LaunchScreen.storyboard */,
+				743C123D2072425F0064A354 /* Info.plist */,
 			);
 			path = "Yoga Workshop2";
 			sourceTree = "<group>";
@@ -177,9 +190,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				743C1224207241870064A354 /* LaunchScreen.storyboard in Resources */,
-				743C1221207241870064A354 /* Assets.xcassets in Resources */,
-				743C121F207241820064A354 /* Main.storyboard in Resources */,
+				743C123E2072425F0064A354 /* Info.plist in Resources */,
+				743C124C207257FE0064A354 /* Main.storyboard in Resources */,
+				743C1249207257F10064A354 /* LaunchScreen.storyboard in Resources */,
+				743C12422072432A0064A354 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -197,8 +211,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				743C123C207242580064A354 /* Moods.swift in Sources */,
+				743C1240207242770064A354 /* CustomTableViewCell.swift in Sources */,
 				743C121C207241820064A354 /* ViewController.swift in Sources */,
+				743C124420724B010064A354 /* WelcomeViewController.swift in Sources */,
 				743C121A207241820064A354 /* AppDelegate.swift in Sources */,
+				743C123A2072421A0064A354 /* MoodViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -221,20 +239,20 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		743C121D207241820064A354 /* Main.storyboard */ = {
+		743C1247207257F10064A354 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				743C121E207241820064A354 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		743C1222207241870064A354 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				743C1223207241870064A354 /* Base */,
+				743C1248207257F10064A354 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		743C124A207257FE0064A354 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				743C124B207257FE0064A354 /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
