@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		743C121A207241820064A354 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 743C1219207241820064A354 /* AppDelegate.swift */; };
 		743C121C207241820064A354 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 743C121B207241820064A354 /* ViewController.swift */; };
 		743C122F207241870064A354 /* Yoga_Workshop2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 743C122E207241870064A354 /* Yoga_Workshop2Tests.swift */; };
 		743C123A2072421A0064A354 /* MoodViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 743C12392072421A0064A354 /* MoodViewController.swift */; };
@@ -18,6 +17,7 @@
 		743C124420724B010064A354 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 743C124320724B010064A354 /* WelcomeViewController.swift */; };
 		743C1249207257F10064A354 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 743C1247207257F10064A354 /* LaunchScreen.storyboard */; };
 		743C124C207257FE0064A354 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 743C124A207257FE0064A354 /* Main.storyboard */; };
+		7446217420797A8F009ECDCC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7446217320797A8F009ECDCC /* AppDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,7 +32,6 @@
 
 /* Begin PBXFileReference section */
 		743C1216207241820064A354 /* Yoga Workshop2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Yoga Workshop2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		743C1219207241820064A354 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		743C121B207241820064A354 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		743C122A207241870064A354 /* Yoga Workshop2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Yoga Workshop2Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		743C122E207241870064A354 /* Yoga_Workshop2Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Yoga_Workshop2Tests.swift; sourceTree = "<group>"; };
@@ -45,6 +44,7 @@
 		743C124320724B010064A354 /* WelcomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = WelcomeViewController.swift; path = "../../../../Desktop/Yoga Workshop/Yoga Workshop/WelcomeViewController.swift"; sourceTree = "<group>"; };
 		743C1248207257F10064A354 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "../../Yoga Workshop/Yoga Workshop/Base.lproj/LaunchScreen.storyboard"; sourceTree = "<group>"; };
 		743C124B207257FE0064A354 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "../../Yoga Workshop/Yoga Workshop/Base.lproj/Main.storyboard"; sourceTree = "<group>"; };
+		7446217320797A8F009ECDCC /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = "../../../../Desktop/Yoga-Workshop2/Yoga Workshop2/AppDelegate.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,7 +86,7 @@
 		743C1218207241820064A354 /* Yoga Workshop2 */ = {
 			isa = PBXGroup;
 			children = (
-				743C1219207241820064A354 /* AppDelegate.swift */,
+				7446217320797A8F009ECDCC /* AppDelegate.swift */,
 				743C121B207241820064A354 /* ViewController.swift */,
 				743C124320724B010064A354 /* WelcomeViewController.swift */,
 				743C123F207242770064A354 /* CustomTableViewCell.swift */,
@@ -215,7 +215,7 @@
 				743C1240207242770064A354 /* CustomTableViewCell.swift in Sources */,
 				743C121C207241820064A354 /* ViewController.swift in Sources */,
 				743C124420724B010064A354 /* WelcomeViewController.swift in Sources */,
-				743C121A207241820064A354 /* AppDelegate.swift in Sources */,
+				7446217420797A8F009ECDCC /* AppDelegate.swift in Sources */,
 				743C123A2072421A0064A354 /* MoodViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
